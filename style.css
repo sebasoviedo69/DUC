@@ -1,0 +1,60 @@
+body{
+
+    width: 100%;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  color: #ffffff;
+  background-color: #8758ff;
+  font-size: xx-small;
+}
+
+footer p {
+    display: flex;
+    margin: auto;
+}
+
+.main{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.dark-purple-text{
+  color: #8758ff;
+}
+
+.light-purple-text{
+  color: #A084E8;
+}
+
+/* This is the default style for all screen sizes */
+.container {
+  width: 100%;
+}
+
+/* This is the style for screens that are less than 600px wide */
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+  .hero {
+    display: none;
+  }
+}
+
+/* This is the style for screens that are between 600px and 900px wide */
+@media (min-width: 600px) and (max-width: 900px) {
+  .container {
+    width: 600px;
+  }
+}
+
+/* This is the style for screens that are wider than 900px */
+@media (min-width: 900px) {
+  .container {
+    width: 900px;
+  }
+}
