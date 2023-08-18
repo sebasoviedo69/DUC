@@ -40,9 +40,6 @@ footer p {
   .container {
     width: 100%;
   }
-  .hero {
-    display: none;
-  }
 }
 
 /* This is the style for screens that are between 600px and 900px wide */
